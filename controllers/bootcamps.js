@@ -18,7 +18,7 @@ exports.getBootcamp = (req, res, next) =>{
         msg: `Get A BootComp ${req.params.id}`
     });
 }
-
+      
 
 // @desc c   create a single bootcamps   
 // @route    POST /api/v1/bootcamps
