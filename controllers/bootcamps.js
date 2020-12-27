@@ -18,11 +18,11 @@ exports.getBootcamp = (req, res, next) =>{
         msg: `Get A BootComp ${req.params.id}`
     });
 }
-      
+         
 
-// @desc c   create a single bootcamps   
-// @route    POST /api/v1/bootcamps
-// access    Private
+// @desc c   create a single bootcamps      
+// @route    POST /api/v1/bootcamps      
+// access    Private     
 exports.createBootcamp = (req, res, next) =>{
     res.status(400).json({
         "success": false,
