@@ -13,11 +13,11 @@ exports.getBootcamps = (req, res, next) =>{
 // @route    GET /api/v1/bootcamps/:id 
 // @access   Public
 exports.getBootcamp = (req, res, next) =>{
-    res.status(400).json({   
-        "success": false,
-        msg: `Get A BootComp ${req.params.id}`
-    });
-}
+    res.status(400).json({     
+        "success": false,   
+        msg: `Get A BootComp ${req.params.id}`  
+    });       
+}    
          
 
 // @desc c   create a single bootcamps      
