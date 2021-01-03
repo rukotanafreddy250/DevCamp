@@ -21,14 +21,4 @@ router.route('/:id')
     .put(UpdateBootcamp)
     .delete(deleteBootcamp);
 
-module.exports = router;
-
-
-
-
-
-
-
-
-
-
+module.exports = router;    
