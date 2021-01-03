@@ -7,8 +7,8 @@ exports.getBootcamps = (req, res, next) =>{
         msg: "Show all bootcamp"
     });
 }
-    
-    
+          
+       
 // @desc     Get a single bootcamps   
 // @route    GET /api/v1/bootcamps/:id 
 // @access   Public
