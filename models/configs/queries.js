@@ -10,9 +10,9 @@ const CREATE_TABLE_USERS = `
         isadmin BOOLEAN
     );
 `;
-
+    
 module.exports = CREATE_TABLE_USERS;
-
+     
 
 const select_users = `   
         select * from jot_users;

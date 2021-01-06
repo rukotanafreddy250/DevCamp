@@ -56,6 +56,3 @@ exports.deleteBootcamp = (req, res, next) =>{
 
 
    
-
-
-
