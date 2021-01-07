@@ -18,8 +18,8 @@ const {Pool, Client} = require('pg');
             }
         }
     )
-// })();
-   
-
+// })();    
+       
+  
 module.exports = client;  
 // module.exports = connectDB;
