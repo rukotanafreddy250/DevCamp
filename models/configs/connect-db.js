@@ -16,8 +16,8 @@ const {Pool, Client} = require('pg');
             }else{
                 console.log(`DB Can't connect.. ${err.stack}`);
             }   
-        }  
-    )       
+        }     
+    )          
 // })();    
        
   
