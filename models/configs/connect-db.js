@@ -19,7 +19,7 @@ const {Pool, Client} = require('pg');
         }     
     )          
 // })();    
-       
+            s
   
 module.exports = client;  
 // module.exports = connectDB;
