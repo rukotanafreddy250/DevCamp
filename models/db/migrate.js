@@ -23,7 +23,7 @@ const migrateAllTables = async ( isDone) => {
     console.log('DB connectd...');
     // process.exit(0);
 }
-
+   
 try{
     (
         async () => {

@@ -8,13 +8,13 @@ const CREATE_TABLE_USERS = `
         phonenumber VARCHAR(255),   
         email VARCHAR(255),
         isadmin BOOLEAN
-    );
+    );  
 `;
     
 module.exports = CREATE_TABLE_USERS;
      
 
-const select_users = `   
+const select_users = `    
         select * from jot_users;
 `;
 module.exports = select_users;
