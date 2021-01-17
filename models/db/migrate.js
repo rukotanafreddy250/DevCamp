@@ -9,7 +9,7 @@ const migrateAllTables = async ( isDone) => {
     //         console.log('error selecting table' + err.stack);
     //     }else{
     //         console.log(results.rows);
-    //     }
+    //     }  
     // });
     await client.query({text: select_users}, (err, results) =>{
         if(err){
